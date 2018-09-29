@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:snake/game_constants.dart';
 
-class Failure extends StatelessWidget {
+class Splash extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Container(
@@ -9,8 +9,8 @@ class Failure extends StatelessWidget {
       width: BOARD_SIZE,
       height: BOARD_SIZE,
       child: Center(
-        child: Text("Game over! Tap to play again!",
-            style: TextStyle(color: const Color(0xFFFF0C0C))),
+        child: Text("Tap to start the Game!",
+            style: TextStyle(color: const Color(0xFF50C878))),
       ),
     );
   }

@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'Snake',
       home: new Home(),
+        theme: ThemeData(fontFamily: 'Pixel Emulator')
     );
   }
 }

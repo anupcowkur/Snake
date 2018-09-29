@@ -2,12 +2,12 @@
 
 Snake game built in flutter
 
-# Motivation
+## Motivation
 Flutter is pretty cool. This is just a small project I did to
 test it out. There are no tests and the code quality is what you'd expect
 from a weekend hack.
 
-## But look at it!
+## Demo
 ![Snake Gif](snake.gif)
 
 ### License

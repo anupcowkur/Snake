@@ -8,8 +8,10 @@ class Splash extends StatelessWidget {
       color: const Color(0xFFFFFFFF),
       width: BOARD_SIZE,
       height: BOARD_SIZE,
+      padding: const EdgeInsets.all(TEXT_PADDING),
       child: Center(
         child: Text("Tap to start the Game!",
+            textAlign: TextAlign.center,
             style: TextStyle(color: const Color(0xFF50C878))),
       ),
     );

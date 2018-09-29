@@ -1,4 +1,4 @@
-package com.example.snake;
+package com.anupcowkur.snake;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
